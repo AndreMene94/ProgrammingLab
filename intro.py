@@ -1,9 +1,11 @@
-print("Hello World")
+def sumList(numberList):
 
-numberList = [10,20,30]
-sum = 0
+  sum = 0
 
-for item in numberList:
-  sum += item
+  for item in numberList:
+    sum += item
+  
+  #ritorno la somma 
+  return sum
 
-print (sum)
+print ("Somma {}" . format(sumList([10,20,30,40])))
